@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pikachu-volleyball/static/css/main.f6b50384.css",
-    "main.js": "/pikachu-volleyball/static/js/main.a9315333.js",
+    "main.js": "/pikachu-volleyball/static/js/main.6c1d6d24.js",
     "index.html": "/pikachu-volleyball/index.html",
     "main.f6b50384.css.map": "/pikachu-volleyball/static/css/main.f6b50384.css.map",
-    "main.a9315333.js.map": "/pikachu-volleyball/static/js/main.a9315333.js.map"
+    "main.6c1d6d24.js.map": "/pikachu-volleyball/static/js/main.6c1d6d24.js.map"
   },
   "entrypoints": [
     "static/css/main.f6b50384.css",
-    "static/js/main.a9315333.js"
+    "static/js/main.6c1d6d24.js"
   ]
 }
