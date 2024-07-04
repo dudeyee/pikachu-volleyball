@@ -72,7 +72,7 @@ const PikachuVolleyball: React.FC = () => {
     useEffect(() => {
         const speedIncreaseInterval = setInterval(() => {
             setSpeedMultiplier(prev => prev + 0.1);
-        }, 10000); // Increase speed every 10 seconds
+        }, 3000); // Increase speed every 10 seconds
 
         return () => clearInterval(speedIncreaseInterval);
     }, []);
@@ -138,8 +138,13 @@ const PikachuVolleyball: React.FC = () => {
             <p className="mt-4 text-xl">分數: {score}</p>
             <p className="text-sm">速度: x{speedMultiplier.toFixed(1)}</p>
             {gameOver && (
-                <div className="mt-4">
-                    <a href="https://dudeyee.pitchat.co/zh-Hant" className="text-xl text-blue-600 dark:text-blue-500 hover:underline font-bold">休息一下，點我了解更多DUDEYEE杜得譯LINE翻譯服務喔：）</a>
+                <div className="mt-4 flex flex-col items-center justify-center">
+                    <a href="https://dudeyee.pitchat.co/zh-Hant"
+                       className="text-xl text-blue-600 dark:text-blue-500 hover:underline font-bold">了解更多DUDEYEE杜得譯LINE翻譯服務</a>
+                    <br/>
+                    <a href="https://www.threads.net/@dudeyee_official"
+                       className="text-sm text-red-600 dark:text-red-500 hover:underline font-bold">點我追蹤小恐龍編發廢文</a>
+                    <br/>
                     <button
                         className="mt-2 px-4 py-2 bg-green-500 text-white rounded"
                         onClick={resetGame}
